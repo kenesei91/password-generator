@@ -45,8 +45,8 @@ Other than creating a unique password, this project required the use of certain 
 **Github pages and links.**
 
 This project has been deployed to GitHub Pages. 
-[Deployed application](https://kenesei91.github.io/password-generator/)
-[Github Repository](https://github.com/kenesei91/password-generator)
+- [Deployed application](https://kenesei91.github.io/password-generator/){:target="_blank" "rel="moopener"}
+- [Github Repository](https://github.com/kenesei91/password-generator){:target="_blank" "rel="moopener"}
 
 
 ## Contributors
