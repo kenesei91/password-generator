@@ -5,7 +5,7 @@ var confirmNumber;
 var confirmCharacter;
 var confirmUppercase;
 var confirmLowercase;
-// Start Password variable values: 
+
 // Special symbols/characters 
 character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
 // Number characters
@@ -58,7 +58,7 @@ function generatePassword() {
       var choices = character.concat(number, alphaL, alphaU);
       console.log(choices);
   }
-  // Else if for 3 positive options
+  // Else if for three positive responses
   else if (confirmCharacter && confirmNumber && confirmUppercase) {
       choices = character.concat(number, alphaU);
   }
@@ -71,7 +71,7 @@ function generatePassword() {
   else if (confirmNumber && confirmLowercase && confirmUppercase) {
       choices = number.concat(alphaL, alphaU);
   }
-  // Else if for 2 positive options 
+  // Else if for two positive responses
   else if (confirmCharacter && confirmNumber) {
       choices = character.concat(number);
 
@@ -90,7 +90,7 @@ function generatePassword() {
   } else if (confirmNumber && confirmUppercase) {
       choices = number.concat(alphaU);
   }
-  // Else if for 1 positive option
+  // Else if for 1 positive response
   else if (confirmCharacter) {
       choices = character;
   }
@@ -104,7 +104,7 @@ function generatePassword() {
     choices = alphaU;
   }
 
-  // empty array for password
+  // empty string for password
   password = '';
 
   // using random solutions to select random variables
