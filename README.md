@@ -42,10 +42,11 @@ Other than creating a unique password, this project required the use of certain 
 ![Project-Picture](./passgen3.png)
 - [x]Showing the state of the app with generated password
 
-**Github pages and links.**
+## Github pages and links
 
 This project has been deployed to GitHub Pages. 
 - [Deployed application](https://kenesei91.github.io/password-generator/){:target="_blank" "rel="moopener"}
+
 - [Github Repository](https://github.com/kenesei91/password-generator){:target="_blank" "rel="moopener"}
 
 
